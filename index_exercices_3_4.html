@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="build/styles.css">
+
+    <title>Document</title>
+</head>
+
+<body class="flex justify-center">
+
+    <div class="self-center  bg-blue-300 flex flex-col justify-center items-center">
+        <label for="name">
+            <input type="name" class="bg-gray-700 text-white p-4 rounded-lg" id="nom" value="" pattern="[a-zA-Z]{2,}" />
+            <p class="text-center text-red-500" id="false"></p>
+        </label>
+        <button class="bg-black text-white mt-8 rounded-xl p-4 " onclick="Validate();">Click here</button>
+
+    </div>
+
+</body>
+<script src="index.js"></script>
+
+</html>
