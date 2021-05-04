@@ -18,6 +18,11 @@ input:invalid {
   padding:1rem;
   border-radius:0.5rem;
 }
+
+.valide-txt{
+  color:green;
+  text-align:center;
+}
 /*! tailwindcss v2.1.2 | MIT License | https://tailwindcss.com */
 
 /*! modern-normalize v1.1.0 | MIT License | https://github.com/sindresorhus/modern-normalize */

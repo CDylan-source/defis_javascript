@@ -27,6 +27,7 @@ function Validate() {
     } else {
         document.getElementById('false').innerHTML = 'Message envoyé !';
         document.getElementById("nom").className = "valide";
+        document.getElementById('false').className = "valide-txt"
 
 
     }
