@@ -25,9 +25,12 @@ function Validate() {
     if (!name_entered.checkValidity()) {
         document.getElementById('false').innerHTML = 'Wrong name !';
     } else {
-        document.getElementById('false').innerHTML = '';
-        var name_entered = document.getElementById("nom").value;
-        alert("Bonjour" + " " + name_entered + " !");
+        document.getElementById('false').innerHTML = 'Message envoyé !';
+        document.getElementById("nom").className = "valide";
+
 
     }
 }
+
+//var name_entered = document.getElementById("nom").value;
+        //alert("Bonjour" + " " + name_entered + " !");
