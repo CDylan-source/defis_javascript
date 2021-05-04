@@ -23,6 +23,19 @@ input:invalid {
   color:green;
   text-align:center;
 }
+
+.faux-txt{
+  color:red;
+  text-align:center;
+}
+
+.faux{
+  background-color:rgba(17, 24, 39, var(--tw-bg-opacity));
+  color:white;
+  padding:1rem;
+  border-radius:0.5rem;
+  border : red solid 3px;
+}
 /*! tailwindcss v2.1.2 | MIT License | https://tailwindcss.com */
 
 /*! modern-normalize v1.1.0 | MIT License | https://github.com/sindresorhus/modern-normalize */
