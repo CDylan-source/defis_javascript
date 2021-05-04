@@ -22,7 +22,7 @@ function changeColor(x, y, z) {
 
 function Validate() {
     var name_entered = document.getElementById("nom")
-    var re = new RegExp("^[a-zA-Z]");
+    var re = new RegExp("^[a-zA-Z]{1,.}");
     if (re.test(name_entered.value)) {
         document.getElementById('false').innerHTML = 'Message envoyé !';
         document.getElementById("nom").className = "valide";
