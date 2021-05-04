@@ -22,7 +22,7 @@ function changeColor(x, y, z) {
 
 function Validate() {
     var name_entered = document.getElementById("nom")
-    var re = new RegExp("^[a-zA-ZéèàêëÉÈÀçÇÊË]*$");
+    var re = new RegExp("^[a-zA-ZéèàêëÉÈÀçÇÊË]*(?:[-])?(?:[a-zA-ZéèàêëÉÈÀçÇÊË])*$");
     if (re.test(name_entered.value)) {
         document.getElementById('false').innerHTML = 'Message envoyé !';
         document.getElementById("nom").className = "valide";
